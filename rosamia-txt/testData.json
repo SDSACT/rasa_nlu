@@ -2,1270 +2,6 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "text": "객관식 문항 입력 카드 보여야",
-        "intent": "오브젝트가 화면에 보인다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 12,
-            "value": "객관식 문항 입력 카드",
-            "entity": "[이벤트] 객관식 문항 입력 카드"
-          }
-        ]
-      },
-      {
-        "text": "문항 입력 카드 보인 경우",
-        "intent": "오브젝트가 화면에 보인다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 8,
-            "value": "문항 입력 카드",
-            "entity": "[이벤트] 객관식 문항 입력 카드"
-          }
-        ]
-      },
-      {
-        "text": "설문 작성 화면",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 3,
-            "end": 8,
-            "value": "작성 화면",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "URL 입력",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 0,
-            "end": 3,
-            "value": "URL",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "객관식 추가 버튼 보여야",
-        "intent": "오브젝트가 화면에 보인다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 9,
-            "value": "객관식 추가 버튼",
-            "entity": "[이벤트] 객관식 추가 버튼"
-          }
-        ]
-      },
-      {
-        "text": "키보드 입력 수정 가능",
-        "intent": "XPATH 오브젝트는 수정이 가능하다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 6,
-            "value": "키보드 입력",
-            "entity": "[이벤트] 설문 제목 입력창"
-          }
-        ]
-      },
-      {
-        "text": "설문 문항 작성 화면 상단 설문 제목 보여야",
-        "intent": "오브젝트에 텍스트가 나타난다",
-        "entities": [
-          {
-            "start": 15,
-            "end": 20,
-            "value": "설문 제목",
-            "entity": "설문 제목 텍스트"
-          },
-          {
-            "start": 6,
-            "end": 14,
-            "value": "작성 화면 상단",
-            "entity": "[이벤트] 상세화면 제목 입력창"
-          }
-        ]
-      },
-      {
-        "text": "설문 제목 입력 란 커서 포커스인 되어",
-        "intent": "XPATH를 갖는 오브젝트에 포커스가 설정되어 있다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 10,
-            "value": "설문 제목 입력 란",
-            "entity": "[이벤트] 설문 제목 입력창"
-          }
-        ]
-      },
-      {
-        "text": "설문 문항 작성 화면",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 3,
-            "end": 11,
-            "value": "문항 작성 화면",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "객관식 추가 버튼 클릭",
-        "intent": "오브젝트를 클릭한다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 9,
-            "value": "객관식 추가 버튼",
-            "entity": "[이벤트] 객관식 추가 버튼"
-          }
-        ]
-      },
-      {
-        "text": "포커스 아웃 상태",
-        "intent": "오브젝트에서 포커스 아웃한다",
-        "entities": []
-      },
-      {
-        "text": "객관식 추가 버튼 클릭 경우",
-        "intent": "오브젝트를 클릭한다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 9,
-            "value": "객관식 추가 버튼",
-            "entity": "[이벤트] 객관식 추가 버튼"
-          }
-        ]
-      },
-      {
-        "text": "추가 문항 없는 경우",
-        "intent": "XPATH를 갖는 오브젝트가 존재하지 않는다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 5,
-            "value": "추가 문항",
-            "entity": "[이벤트] 추가된 문항"
-          }
-        ]
-      },
-      {
-        "text": "설문 문항 최초 작성 화면",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 3,
-            "end": 14,
-            "value": "문항 최초 작성 화면",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "\" 추가 질문 유형 선택 \" 가 보여야",
-        "intent": "텍스트가 화면에 보인다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 15,
-            "value": "\" 추가 질문 유형 선택 \"",
-            "entity": "질문 유형 안내 텍스트"
-          }
-        ]
-      },
-      {
-        "text": "제목 입력 상황",
-        "intent": "오브젝트에 텍스트를 입력한다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 2,
-            "value": "제목",
-            "entity": "[이벤트] 설문 제목 입력창"
-          },
-          {
-            "start": 3,
-            "end": 5,
-            "value": "입력",
-            "entity": "설문 제목 텍스트"
-          }
-        ]
-      },
-      {
-        "text": "제목 입력 창 Enter 키 입력 경우",
-        "intent": "오브젝트에서 ENTER 버튼을 누른다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 7,
-            "value": "제목 입력 창",
-            "entity": "[이벤트] 설문 제목 입력창"
-          }
-        ]
-      },
-      {
-        "text": "제목 영역 클릭 경우",
-        "intent": "오브젝트를 클릭한다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 5,
-            "value": "제목 영역",
-            "entity": "[이벤트] 설문 제목 입력창"
-          }
-        ]
-      },
-      {
-        "text": "제목 텍스트 지운 경우",
-        "intent": "오브젝트의 텍스트를 클리어한다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 6,
-            "value": "제목 텍스트",
-            "entity": "[이벤트] 설문 제목 입력창"
-          }
-        ]
-      },
-      {
-        "text": "설문 타이틀 입력 최초 화면 보여 경우",
-        "intent": "오브젝트가 화면에 보인다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 6,
-            "value": "설문 타이틀",
-            "entity": "[이벤트] 설문 제목 입력창"
-          }
-        ]
-      },
-      {
-        "text": "설문 문항 작성 화면 이동",
-        "intent": "페이지가 이동되었다",
-        "entities": []
-      },
-      {
-        "text": "제목 입력",
-        "intent": "오브젝트에 텍스트를 입력한다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 2,
-            "value": "제목",
-            "entity": "[이벤트] 설문 제목 입력창"
-          },
-          {
-            "start": 3,
-            "end": 5,
-            "value": "입력",
-            "entity": "설문 제목 텍스트"
-          }
-        ]
-      },
-      {
-        "text": "설문 작성 버튼 클릭",
-        "intent": "오브젝트를 클릭한다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 8,
-            "value": "설문 작성 버튼",
-            "entity": "[이벤트] 설문 작성 버튼"
-          }
-        ]
-      },
-      {
-        "text": "커서 맨 뒤 이동",
-        "intent": "XPATH 오브젝트의 커서는 맨뒤다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 6,
-            "value": "커서 맨 뒤",
-            "entity": "[이벤트] 커서가 이동된 오브젝트"
-          }
-        ]
-      },
-      {
-        "text": "설문 제목 입력 란 가이드 문구 보여야",
-        "intent": "오브젝트에 가이드 텍스트가 나타난다",
-        "entities": [
-          {
-            "start": 11,
-            "end": 17,
-            "value": "가이드 문구",
-            "entity": "가이드 문구"
-          },
-          {
-            "start": 0,
-            "end": 10,
-            "value": "설문 제목 입력 란",
-            "entity": "[이벤트] 설문 제목 입력창"
-          }
-        ]
-      },
-      {
-        "text": "키보드 입력으로 수정 가능하다",
-        "intent": "XPATH 오브젝트는 수정이 가능하다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 8,
-            "value": "키보드 입력으로",
-            "entity": "[이벤트] 설문 제목 입력창"
-          }
-        ]
-      },
-      {
-        "text": "복사 버튼 클릭 할 경우",
-        "intent": "오브젝트를 클릭한다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 5,
-            "value": "복사 버튼",
-            "entity": "[이벤트] 복사 버튼"
-          }
-        ]
-      },
-      {
-        "text": "저장 설문 응답 완료 상황",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 3,
-            "end": 14,
-            "value": "설문 응답 완료 상황",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "보기 중 하나 선택 할 때",
-        "intent": "오브젝트를 클릭한다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 7,
-            "value": "보기 중 하나",
-            "entity": "[이벤트] 객관식 보기 항목"
-          }
-        ]
-      },
-      {
-        "text": "보기 텍스트 영역 라디오 버튼 탭 할 때 선택",
-        "intent": "오브젝트를 클릭한다",
-        "entities": [
-          {
-            "start": 10,
-            "end": 16,
-            "value": "라디오 버튼",
-            "entity": "[이벤트] 객관식 라디오 버튼"
-          }
-        ]
-      },
-      {
-        "text": "모바일 URL 접속 하였을 때",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 0,
-            "end": 7,
-            "value": "모바일 URL",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "질문 입력 란 포커스인 되어야",
-        "intent": "XPATH를 갖는 오브젝트에 포커스가 설정되어 있다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 7,
-            "value": "질문 입력 란",
-            "entity": "[이벤트] 질문 입력 란"
-          }
-        ]
-      },
-      {
-        "text": "7 개 중 하나 문항 응답 되었을 경우",
-        "intent": "",
-        "entities": []
-      },
-      {
-        "text": "결과 URL 입력 결과 확인 화면 들어왔을 때",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 0,
-            "end": 6,
-            "value": "결과 URL",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "써니 주어진 서베이 URL 알고 있고",
-        "intent": "",
-        "entities": []
-      },
-      {
-        "text": "설문 배포 버튼 클릭 할 경우",
-        "intent": "오브젝트를 클릭한다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 8,
-            "value": "설문 배포 버튼",
-            "entity": "[이벤트] 설문 배포 버튼"
-          }
-        ]
-      },
-      {
-        "text": "전 작성 문항 아래 작성 문항 카드 화면 보여져야",
-        "intent": "오브젝트가 화면에 보인다",
-        "entities": [
-          {
-            "start": 14,
-            "end": 19,
-            "value": "문항 카드",
-            "entity": "[이벤트] 문항 카드"
-          }
-        ]
-      },
-      {
-        "text": "문항 카드 작성 완료 상태",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 3,
-            "end": 14,
-            "value": "카드 작성 완료 상태",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "저장 버튼 클릭 할 경우",
-        "intent": "오브젝트를 클릭한다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 5,
-            "value": "저장 버튼",
-            "entity": "[이벤트] 저장 버튼"
-          }
-        ]
-      },
-      {
-        "text": "보기 2 입력 포커스 보기 2 입력 란 있는 상태",
-        "intent": "오브젝트에 포커스를 준다",
-        "entities": [
-          {
-            "start": 12,
-            "end": 21,
-            "value": "보기 2 입력 란",
-            "entity": "[이벤트] 질문 보기 입력 란"
-          }
-        ]
-      },
-      {
-        "text": "보기 1 번 포커스인 해야",
-        "intent": "오브젝트에 포커스를 준다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 6,
-            "value": "보기 1 번",
-            "entity": "[이벤트] 질문 보기 입력 란"
-          }
-        ]
-      },
-      {
-        "text": "URL 입력 결과 화면 들어왔을 때",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 0,
-            "end": 3,
-            "value": "URL",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "제출 버튼 탭 응답 내용 저장 완료 경우",
-        "intent": "오브젝트를 클릭한다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 5,
-            "value": "제출 버튼",
-            "entity": "[이벤트] 제출 버튼"
-          }
-        ]
-      },
-      {
-        "text": "보기 작성 완료 상태",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 3,
-            "end": 11,
-            "value": "작성 완료 상태",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "주관식 설문 대한 응답 10 개 이하 설문지 있는 상황",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 21,
-            "end": 30,
-            "value": "설문지 있는 상황",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "설문지 작성 완료 상태",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 4,
-            "end": 12,
-            "value": "작성 완료 상태",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "보기 1 입력 포커스 보기 1 입력 란 있는 상태",
-        "intent": "오브젝트에 포커스를 준다",
-        "entities": [
-          {
-            "start": 12,
-            "end": 21,
-            "value": "보기 1 입력 란",
-            "entity": "[이벤트] 질문 보기 입력 란"
-          }
-        ]
-      },
-      {
-        "text": "문항 보여야",
-        "intent": "오브젝트가 화면에 보인다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 2,
-            "value": "문항",
-            "entity": "[이벤트] 문항 카드"
-          }
-        ]
-      },
-      {
-        "text": "설문 제목 보여야",
-        "intent": "오브젝트가 화면에 보인다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 5,
-            "value": "설문 제목",
-            "entity": "[이벤트] 설문 제목"
-          }
-        ]
-      },
-      {
-        "text": "스크롤 내린다",
-        "intent": "스크롤을 내린다",
-        "entities": []
-      },
-      {
-        "text": "설문 문항 7 개 존재 현재 응답 문항 없는 상황",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 16,
-            "end": 27,
-            "value": "응답 문항 없는 상황",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "보기 2 번 포커스인 해야",
-        "intent": "오브젝트에 포커스를 준다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 6,
-            "value": "보기 2 번",
-            "entity": "[이벤트] 질문 보기 입력 란"
-          }
-        ]
-      },
-      {
-        "text": "주관식 답변 10 개 보인다",
-        "intent": "오브젝트가 화면에 보인다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 6,
-            "value": "주관식 답변",
-            "entity": "[이벤트] 주관식 답변"
-          }
-        ]
-      },
-      {
-        "text": "설문 타이틀 보여준다",
-        "intent": "오브젝트가 화면에 보인다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 6,
-            "value": "설문 타이틀",
-            "entity": "[이벤트] 설문 제목"
-          }
-        ]
-      },
-      {
-        "text": "질문 입력 란 포커스 된 상태",
-        "intent": "오브젝트에 포커스를 준다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 7,
-            "value": "질문 입력 란",
-            "entity": "[이벤트] 질문 입력 란"
-          }
-        ]
-      },
-      {
-        "text": "베포 완료 설문 있는 상태",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 6,
-            "end": 14,
-            "value": "설문 있는 상태",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "설문지 작성 완료 상황",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 4,
-            "end": 12,
-            "value": "작성 완료 상황",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "제출 버튼 탭 할 경우",
-        "intent": "오브젝트를 클릭한다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 5,
-            "value": "제출 버튼",
-            "entity": "[이벤트] 제출 버튼"
-          }
-        ]
-      },
-      {
-        "text": "추가 문항 질문 완료 상태",
-        "intent": "오브젝트에 텍스트를 입력한다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 5,
-            "value": "추가 문항",
-            "entity": "[이벤트] 설문 제목 입력창"
-          },
-          {
-            "start": 6,
-            "end": 11,
-            "value": "질문 완료",
-            "entity": "설문 제목 텍스트"
-          }
-        ]
-      },
-      {
-        "text": "설문 문항 7 개 존재 상황",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 3,
-            "end": 15,
-            "value": "문항 7 개 존재 상황",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "질문 입력 포커스 질문 입력 란 있는 상태",
-        "intent": "오브젝트에 텍스트를 입력한다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 2,
-            "value": "질문",
-            "entity": "[이벤트] 설문 제목 입력창"
-          },
-          {
-            "start": 3,
-            "end": 5,
-            "value": "입력",
-            "entity": "설문 제목 텍스트"
-          }
-        ]
-      },
-      {
-        "text": "항목 추가 텍스트 + 버튼 클릭 할 경우",
-        "intent": "오브젝트에서 포커스 아웃한다",
-        "entities": [
-          {
-            "start": 10,
-            "end": 14,
-            "value": "+ 버튼",
-            "entity": "[이벤트] + 버튼"
-          }
-        ]
-      },
-      {
-        "text": "객관식 설문 문항 보기 있고",
-        "intent": "오브젝트가 화면에 보인다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 12,
-            "value": "객관식 설문 문항 보기",
-            "entity": "[이벤트] 객관식 보기 항목"
-          }
-        ]
-      },
-      {
-        "text": "객관식 문항 보기 비율 ( ex . 12 % ) 보여야",
-        "intent": "텍스트가 화면에 보인다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 9,
-            "value": "객관식 문항 보기",
-            "entity": "[이벤트] 객관식 보기 항목"
-          },
-          {
-            "start": 10,
-            "end": 12,
-            "value": "비율",
-            "entity": "비율"
-          }
-        ]
-      },
-      {
-        "text": "객관식 문항 경우 보기 보여야",
-        "intent": "오브젝트가 화면에 보인다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 12,
-            "value": "객관식 문항 경우 보기",
-            "entity": "[이벤트] 객관식 보기 항목"
-          }
-        ]
-      },
-      {
-        "text": "\" 보기 \" placeholder 보여야",
-        "intent": "오브젝트에 텍스트가 나타난다",
-        "entities": [
-          {
-            "start": 2,
-            "end": 4,
-            "value": "보기",
-            "entity": "[이벤트] 질문 보기 입력 란"
-          },
-          {
-            "start": 7,
-            "end": 18,
-            "value": "placeholder",
-            "entity": "객관식 보기 텍스트"
-          }
-        ]
-      },
-      {
-        "text": "객관식 추가 버튼 클릭 경우",
-        "intent": "오브젝트를 클릭한다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 9,
-            "value": "객관식 추가 버튼",
-            "entity": "[이벤트] 객관식 추가 버튼"
-          }
-        ]
-      },
-      {
-        "text": "객관식 문항 있는 설문 응답자 있는 상황",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 10,
-            "end": 22,
-            "value": "설문 응답자 있는 상황",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "작성 문항 카드 화면 보여져야",
-        "intent": "오브젝트가 화면에 보인다",
-        "entities": [
-          {
-            "start": 3,
-            "end": 8,
-            "value": "문항 카드",
-            "entity": "[이벤트] 문항 카드"
-          }
-        ]
-      },
-      {
-        "text": "\" 질문 \" placeholder 보여야",
-        "intent": "오브젝트에 텍스트가 나타난다",
-        "entities": [
-          {
-            "start": 2,
-            "end": 4,
-            "value": "질문",
-            "entity": "[이벤트] 질문 입력 란"
-          },
-          {
-            "start": 7,
-            "end": 18,
-            "value": "placeholder",
-            "entity": "객관식 질문 텍스트"
-          }
-        ]
-      },
-      {
-        "text": "주관식 설문 대한 응답 11 개 이상 설문지 있는 상황",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 21,
-            "end": 30,
-            "value": "설문지 있는 상황",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "객관식 문항 각 보기 응답자 수 보여야",
-        "intent": "오브젝트에 텍스트가 나타난다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 11,
-            "value": "객관식 문항 각 보기",
-            "entity": "[이벤트] 객관식 보기 항목"
-          },
-          {
-            "start": 12,
-            "end": 17,
-            "value": "응답자 수",
-            "entity": "응답자 수"
-          }
-        ]
-      },
-      {
-        "text": "설문지 한 개 이상 문항 등록 있는 상황",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 4,
-            "end": 22,
-            "value": "한 개 이상 문항 등록 있는 상황",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "0 % 진행 바 보인다",
-        "intent": "오브젝트가 화면에 보인다",
-        "entities": [
-          {
-            "start": 4,
-            "end": 8,
-            "value": "진행 바",
-            "entity": "[이벤트] 진행바"
-          }
-        ]
-      },
-      {
-        "text": "채번 함께 질문 가이드 문구 보여야",
-        "intent": "오브젝트에 텍스트가 나타난다",
-        "entities": [
-          {
-            "start": 9,
-            "end": 15,
-            "value": "가이드 문구",
-            "entity": "질문 가이드 문구"
-          },
-          {
-            "start": 6,
-            "end": 8,
-            "value": "질문",
-            "entity": "[이벤트] 질문 입력 란"
-          }
-        ]
-      },
-      {
-        "text": "설문지 응답 완료 상황",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 4,
-            "end": 12,
-            "value": "응답 완료 상황",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "설문 url 이 적힌 팝업 보여야",
-        "intent": "오브젝트가 화면에 보인다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 14,
-            "value": "설문 url 이 적힌 팝업",
-            "entity": "[이벤트] 설문 url 팝업"
-          }
-        ]
-      },
-      {
-        "text": "보기 2 번 입력 있는 상태",
-        "intent": "오브젝트에 텍스트를 입력한다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 6,
-            "value": "보기 2 번",
-            "entity": "[이벤트] 질문 보기 입력 란"
-          },
-          {
-            "start": 7,
-            "end": 9,
-            "value": "입력",
-            "entity": "객관식 보기 텍스트"
-          }
-        ]
-      },
-      {
-        "text": "다른 응답 보인다",
-        "intent": "오브젝트가 화면에 보인다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 5,
-            "value": "다른 응답",
-            "entity": "[이벤트] 답변"
-          }
-        ]
-      },
-      {
-        "text": "답변 비율 따른 바 차트 표시",
-        "intent": "오브젝트가 화면에 보인다",
-        "entities": [
-          {
-            "start": 9,
-            "end": 13,
-            "value": "바 차트",
-            "entity": "[이벤트] 바 차트"
-          }
-        ]
-      },
-      {
-        "text": "14 % 색칠 진행 바 보인다",
-        "intent": "오브젝트가 화면에 보인다",
-        "entities": [
-          {
-            "start": 8,
-            "end": 12,
-            "value": "진행 바",
-            "entity": "[이벤트] 진행바"
-          }
-        ]
-      },
-      {
-        "text": "설문 저장 할 때",
-        "intent": "오브젝트를 클릭한다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 5,
-            "value": "설문 저장",
-            "entity": "[이벤트] 저장 버튼"
-          }
-        ]
-      },
-      {
-        "text": "스크롤 바 보이지 않",
-        "intent": "스크롤바가 보이지 않는다",
-        "entities": []
-      },
-      {
-        "text": "질문 입력 란 브로 아무런 텍스트 적지 않은 경우",
-        "intent": "오브젝트를 클릭한다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 7,
-            "value": "질문 입력 란",
-            "entity": "[이벤트] 질문 입력 란"
-          }
-        ]
-      },
-      {
-        "text": "1 / 7 완료 텍스트 보인다",
-        "intent": "오브젝트에 텍스트가 나타난다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 8,
-            "value": "1 / 7 완료",
-            "entity": "[이벤트] 진행바"
-          },
-          {
-            "start": 9,
-            "end": 12,
-            "value": "텍스트",
-            "entity": "진행바 텍스트"
-          }
-        ]
-      },
-      {
-        "text": "제출 완료 화면 보여야",
-        "intent": "페이지가 이동되었다",
-        "entities": []
-      },
-      {
-        "text": "엔터 입력 경우",
-        "intent": "오브젝트에서 ENTER 버튼을 누른다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 5,
-            "value": "엔터 입력",
-            "entity": "[이벤트] ENTER 입력창"
-          }
-        ]
-      },
-      {
-        "text": "URL 입력 설문 시작 했을 때",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 0,
-            "end": 3,
-            "value": "URL",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "보기 아래 추가 포커스인 해야",
-        "intent": "XPATH를 갖는 오브젝트에 포커스가 설정되어 있다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 2,
-            "value": "보기",
-            "entity": "[이벤트] 질문 보기 입력 란"
-          }
-        ]
-      },
-      {
-        "text": "스크롤 바 표시",
-        "intent": "스크롤바가 보인다",
-        "entities": []
-      },
-      {
-        "text": "링크 공유 팝업 보여진 상태",
-        "intent": "오브젝트가 화면에 보인다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 8,
-            "value": "링크 공유 팝업",
-            "entity": "[이벤트] 설문 url 팝업"
-          }
-        ]
-      },
-      {
-        "text": "질문 커서 보여야",
-        "intent": "XPATH를 갖는 오브젝트에 포커스가 설정되어 있다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 2,
-            "value": "질문",
-            "entity": "[이벤트] 질문 입력 란"
-          }
-        ]
-      },
-      {
-        "text": "설문 응답자 수 보여준다",
-        "intent": "오브젝트에 텍스트가 나타난다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 2,
-            "value": "설문",
-            "entity": "[이벤트] 설문 항목"
-          },
-          {
-            "start": 3,
-            "end": 8,
-            "value": "응답자 수",
-            "entity": "응답자 수"
-          }
-        ]
-      },
-      {
-        "text": "0 / 7 완료 텍스트 보인다",
-        "intent": "오브젝트에 텍스트가 나타난다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 8,
-            "value": "0 / 7 완료",
-            "entity": "[이벤트] 진행바"
-          },
-          {
-            "start": 9,
-            "end": 12,
-            "value": "텍스트",
-            "entity": "진행바 텍스트"
-          }
-        ]
-      },
-      {
-        "text": "결과 화면 URL 입력 들어왔을 때",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 6,
-            "end": 9,
-            "value": "URL",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "각 문항 질문 보여야",
-        "intent": "오브젝트에 텍스트가 나타난다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 4,
-            "value": "각 문항",
-            "entity": "[이벤트] 설문 제목"
-          },
-          {
-            "start": 5,
-            "end": 7,
-            "value": "질문",
-            "entity": "질문 텍스트"
-          }
-        ]
-      },
-      {
-        "text": "써니 3 개 이상 문항 있는 설문 url 주어졌",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 16,
-            "end": 22,
-            "value": "설문 url",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "설문 응답 완료 설문 있는 상황",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 3,
-            "end": 17,
-            "value": "응답 완료 설문 있는 상황",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "보기 작성 화면",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 3,
-            "end": 8,
-            "value": "작성 화면",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "답변 작성 화면",
-        "intent": "브라우저 실행",
-        "entities": [
-          {
-            "start": 3,
-            "end": 8,
-            "value": "작성 화면",
-            "entity": "URL"
-          }
-        ]
-      },
-      {
-        "text": "작성 화면 상단 타이틀 보여야",
-        "intent": "오브젝트에 텍스트가 나타난다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 8,
-            "value": "작성 화면 상단",
-            "entity": "[이벤트] 상세화면 제목 입력창"
-          }
-        ]
-      },
-      {
-        "text": "보기 문항 작성 화면 상단 타이틀",
-        "intent": "오브젝트에 텍스트가 나타난다",
-        "entities": [
-          {
-            "start": 6,
-            "end": 14,
-            "value": "작성 화면 상단",
-            "entity": "[이벤트] 상세화면 제목 입력창"
-          }
-        ]
-      },
-      {
         "text": "트위터 페이지 접속",
         "intent": "브라우저 실행",
         "entities": [
@@ -1278,36 +14,18 @@
         ]
       },
       {
-        "text": "아이디 입력창 아이디 입력",
+        "text": "패스워드 입력 창 패스워드 입력",
         "intent": "오브젝트에 텍스트를 입력한다",
         "entities": [
           {
             "start": 0,
-            "end": 7,
-            "value": "아이디 입력창",
-            "entity": "[이벤트] 아이디 입력창"
-          },
-          {
-            "start": 8,
-            "end": 11,
-            "value": "아이디",
-            "entity": "아이디 텍스트"
-          }
-        ]
-      },
-      {
-        "text": "패스워드 입력창 패스워드 입력",
-        "intent": "오브젝트에 텍스트를 입력한다",
-        "entities": [
-          {
-            "start": 0,
-            "end": 8,
-            "value": "패스워드 입력창",
+            "end": 9,
+            "value": "패스워드 입력 창",
             "entity": "[이벤트] 패스워드 입력창"
           },
           {
-            "start": 9,
-            "end": 13,
+            "start": 10,
+            "end": 14,
             "value": "패스워드",
             "entity": "패스워드 텍스트"
           }
@@ -1344,26 +62,26 @@
         ]
       },
       {
-        "text": "Tweet 버튼 클릭",
+        "text": "화면 상단 Tweet 버튼 클릭",
         "intent": "오브젝트를 클릭한다",
         "entities": [
           {
             "start": 0,
-            "end": 8,
-            "value": "Tweet 버튼",
-            "entity": "[이벤트] Tweet 버튼"
+            "end": 14,
+            "value": "화면 상단 Tweet 버튼",
+            "entity": "[이벤트] 화면 상단 Tweet 버튼"
           }
         ]
       },
       {
-        "text": "트윗하기 버튼 클릭",
+        "text": "화면 상단 트윗하기 버튼 클릭",
         "intent": "오브젝트를 클릭한다",
         "entities": [
           {
             "start": 0,
-            "end": 7,
-            "value": "트윗하기 버튼",
-            "entity": "[이벤트] 트윗하기 버튼"
+            "end": 13,
+            "value": "화면 상단 트윗하기 버튼",
+            "entity": "[이벤트] 화면 상단 트윗하기 버튼"
           }
         ]
       },
@@ -1411,6 +129,174 @@
             "start": 10,
             "end": 16,
             "value": "트윗 메세지",
+            "entity": "트윗 메세지"
+          }
+        ]
+      },
+      {
+        "text": "트위터 페이지에 접속",
+        "intent": "브라우저 실행",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "트위터 페이지에",
+            "entity": "URL"
+          }
+        ]
+      },
+      {
+        "text": "아이디 입력창에 아이디를 입력",
+        "intent": "오브젝트에 텍스트를 입력한다",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "아이디 입력창에",
+            "entity": "[이벤트] 아이디 입력창"
+          },
+          {
+            "start": 9,
+            "end": 13,
+            "value": "아이디를",
+            "entity": "아이디 텍스트"
+          }
+        ]
+      },
+      {
+        "text": "패스워드 입력 창에 패스워드를 입력",
+        "intent": "오브젝트에 텍스트를 입력한다",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "패스워드 입력 창에",
+            "entity": "[이벤트] 패스워드 입력창"
+          },
+          {
+            "start": 11,
+            "end": 16,
+            "value": "패스워드를",
+            "entity": "패스워드 텍스트"
+          }
+        ]
+      },
+      {
+        "text": "아이디 입력 창 아이디 입력",
+        "intent": "오브젝트에 텍스트를 입력한다",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "아이디 입력 창",
+            "entity": "[이벤트] 아이디 입력창"
+          },
+          {
+            "start": 9,
+            "end": 12,
+            "value": "아이디",
+            "entity": "아이디 텍스트"
+          }
+        ]
+      },
+      {
+        "text": "로그인 버튼을 클릭",
+        "intent": "오브젝트를 클릭한다",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "로그인 버튼을",
+            "entity": "[이벤트] 로그인 버튼"
+          }
+        ]
+      },
+      {
+        "text": "사용자 이름 정보 영역에 사용자 이름이 조회",
+        "intent": "오브젝트에 텍스트가 나타난다",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "사용자 이름 정보 영역에",
+            "entity": "[이벤트] 사용자 이름 정보 영역"
+          },
+          {
+            "start": 14,
+            "end": 21,
+            "value": "사용자 이름이",
+            "entity": "사용자 이름"
+          }
+        ]
+      },
+      {
+        "text": "화면 상단의 Tweet 버튼을 클릭",
+        "intent": "오브젝트를 클릭한다",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "화면 상단의 Tweet 버튼을",
+            "entity": "[이벤트] 화면 상단 Tweet 버튼"
+          }
+        ]
+      },
+      {
+        "text": "화면 상단의 트윗하기 버튼을 클릭",
+        "intent": "오브젝트를 클릭한다",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "화면 상단의 트윗하기 버튼을",
+            "entity": "[이벤트] 화면 상단 트윗하기 버튼"
+          }
+        ]
+      },
+      {
+        "text": "트윗 입력 창에 트윗 텍스트를 입력",
+        "intent": "오브젝트에 텍스트를 입력한다",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "트윗 입력 창에",
+            "entity": "[이벤트] 트윗 입력 창"
+          },
+          {
+            "start": 9,
+            "end": 16,
+            "value": "트윗 텍스트를",
+            "entity": "트윗 텍스트"
+          }
+        ]
+      },
+      {
+        "text": "새로운 트윗 작성에서 트윗하기 버튼을 클릭",
+        "intent": "오브젝트를 클릭한다",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "새로운 트윗 작성에서 트윗하기 버튼을",
+            "entity": "[이벤트] 새로운 트윗 작성 화면의 트윗하기 버튼"
+          }
+        ]
+      },
+      {
+        "text": "트윗 리스트에 등록 트윗 메세지가 나타난다",
+        "intent": "오브젝트에 텍스트가 나타난다",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "트윗 리스트에",
+            "entity": "[이벤트] 트윗 리스트"
+          },
+          {
+            "start": 11,
+            "end": 18,
+            "value": "트윗 메세지가",
             "entity": "트윗 메세지"
           }
         ]

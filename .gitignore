@@ -35,3 +35,4 @@ test_models/model_*
 rasa_nlu/tmbo_test.py
 .mypy_cache/
 log.file
+rosamia-txt/MITIE-english/total*
