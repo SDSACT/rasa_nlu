@@ -300,6 +300,318 @@
             "entity": "트윗 메세지"
           }
         ]
+      },
+      {
+        "rasa_nlu_data": {
+          "common_examples": [
+            {
+              "text": "버튼 클릭",
+              "intent": "오브젝트를 클릭한다",
+              "entities": [
+                {
+                  "start": 0,
+                  "end": 2,
+                  "value": "버튼",
+                  "entity": "[이벤트] 버튼"
+                }
+              ]
+            },
+            {
+              "text": "이미지 클릭",
+              "intent": "오브젝트를 클릭한다",
+              "entities": [
+                {
+                  "start": 0,
+                  "end": 3,
+                  "value": "이미지",
+                  "entity": "[이벤트] 이미지"
+                }
+              ]
+            },
+            {
+              "text": "라디오 버튼 클릭",
+              "intent": "오브젝트를 클릭한다",
+              "entities": [
+                {
+                  "start": 0,
+                  "end": 6,
+                  "value": "라디오 버튼",
+                  "entity": "[이벤트] 라디오 버튼"
+                }
+              ]
+            },
+            {
+              "text": "체크 박스 클릭",
+              "intent": "오브젝트를 클릭한다",
+              "entities": [
+                {
+                  "start": 0,
+                  "end": 5,
+                  "value": "체크 박스",
+                  "entity": "[이벤트] 체크 박스"
+                }
+              ]
+            },
+            {
+              "text": "텍스트 클릭",
+              "intent": "오브젝트를 클릭한다",
+              "entities": [
+                {
+                  "start": 0,
+                  "end": 3,
+                  "value": "텍스트",
+                  "entity": "[이벤트] 텍스트"
+                }
+              ]
+            },
+            {
+              "text": "버튼 더블 클릭",
+              "intent": "오브젝트를 더블 클릭한다",
+              "entities": [
+                {
+                  "start": 0,
+                  "end": 2,
+                  "value": "버튼",
+                  "entity": "[이벤트] 버튼"
+                }
+              ]
+            },
+            {
+              "text": "이미지 더블 클릭",
+              "intent": "오브젝트를 더블 클릭한다",
+              "entities": [
+                {
+                  "start": 0,
+                  "end": 3,
+                  "value": "이미지",
+                  "entity": "[이벤트] 이미지"
+                }
+              ]
+            },
+            {
+              "text": "텍스트 더블 클릭",
+              "intent": "오브젝트를 더블 클릭한다",
+              "entities": [
+                {
+                  "start": 0,
+                  "end": 3,
+                  "value": "텍스트",
+                  "entity": "[이벤트] 텍스트"
+                }
+              ]
+            },
+            {
+              "text": "체크 박스 더블 클릭",
+              "intent": "오브젝트를 더블 클릭한다",
+              "entities": [
+                {
+                  "start": 0,
+                  "end": 5,
+                  "value": "체크 박스",
+                  "entity": "[이벤트] 체크 박스"
+                }
+              ]
+            },
+            {
+              "text": "버튼 롱 클릭",
+              "intent": "오브젝트를 롱 클릭한다",
+              "entities": [
+                {
+                  "start": 0,
+                  "end": 2,
+                  "value": "버튼",
+                  "entity": "[이벤트] 버튼"
+                }
+              ]
+            },
+            {
+              "text": "이미지 롱 클릭",
+              "intent": "오브젝트를 롱 클릭한다",
+              "entities": [
+                {
+                  "start": 0,
+                  "end": 3,
+                  "value": "이미지",
+                  "entity": "[이벤트] 이미지"
+                }
+              ]
+            },
+            {
+              "text": "텍스트 롱 클릭",
+              "intent": "오브젝트를 롱 클릭한다",
+              "entities": [
+                {
+                  "start": 0,
+                  "end": 3,
+                  "value": "텍스트",
+                  "entity": "[이벤트] 텍스트"
+                }
+              ]
+            },
+            {
+              "text": "텍스트 입력 란 삭제",
+              "intent": "텍스트를 삭제한다",
+              "entities": [
+                {
+                  "start": 0,
+                  "end": 3,
+                  "value": "텍스트",
+                  "entity": "텍스트"
+                },
+                {
+                  "start": 4,
+                  "end": 8,
+                  "value": "입력 란",
+                  "entity": "[이벤트] 입력 대상"
+                }
+              ]
+            },
+            {
+              "text": "텍스트 입력 란 지운다",
+              "intent": "텍스트를 삭제한다",
+              "entities": [
+                {
+                  "start": 0,
+                  "end": 3,
+                  "value": "텍스트",
+                  "entity": "텍스트"
+                },
+                {
+                  "start": 4,
+                  "end": 8,
+                  "value": "입력 란",
+                  "entity": "[이벤트] 입력 대상"
+                }
+              ]
+            },
+            {
+              "text": "텍스트 입력 란 없앤다",
+              "intent": "텍스트를 삭제한다",
+              "entities": [
+                {
+                  "start": 0,
+                  "end": 3,
+                  "value": "텍스트",
+                  "entity": "텍스트"
+                },
+                {
+                  "start": 4,
+                  "end": 8,
+                  "value": "입력 란",
+                  "entity": "[이벤트] 입력 대상"
+                }
+              ]
+            },
+            {
+              "text": "텍스트 입력 란 클리어",
+              "intent": "텍스트를 삭제한다",
+              "entities": [
+                {
+                  "start": 0,
+                  "end": 3,
+                  "value": "텍스트",
+                  "entity": "텍스트"
+                },
+                {
+                  "start": 4,
+                  "end": 8,
+                  "value": "입력 란",
+                  "entity": "[이벤트] 입력 대상"
+                }
+              ]
+            },
+            {
+              "text": "텍스트 입력 란 clear",
+              "intent": "텍스트를 삭제한다",
+              "entities": [
+                {
+                  "start": 0,
+                  "end": 3,
+                  "value": "텍스트",
+                  "entity": "텍스트"
+                },
+                {
+                  "start": 4,
+                  "end": 8,
+                  "value": "입력 란",
+                  "entity": "[이벤트] 입력 대상"
+                }
+              ]
+            },
+            {
+              "text": "텍스트 입력 란 입력",
+              "intent": "오브젝트에 텍스트를 입력한다",
+              "entities": [
+                {
+                  "start": 0,
+                  "end": 3,
+                  "value": "텍스트",
+                  "entity": "텍스트"
+                },
+                {
+                  "start": 4,
+                  "end": 8,
+                  "value": "입력 란",
+                  "entity": "[이벤트] 입력 대상"
+                }
+              ]
+            },
+            {
+              "text": "리스트 선택",
+              "intent": "오브젝트를 클릭한다",
+              "entities": [
+                {
+                  "start": 0,
+                  "end": 3,
+                  "value": "리스트",
+                  "entity": "[이벤트] 리스트"
+                }
+              ]
+            },
+            {
+              "text": "리스트 클릭",
+              "intent": "오브젝트를 클릭한다",
+              "entities": [
+                {
+                  "start": 0,
+                  "end": 3,
+                  "value": "리스트",
+                  "entity": "[이벤트] 리스트"
+                }
+              ]
+            },
+            {
+              "text": "리스트 체크",
+              "intent": "오브젝트를 클릭한다",
+              "entities": [
+                {
+                  "start": 0,
+                  "end": 3,
+                  "value": "리스트",
+                  "entity": "[이벤트] 리스트"
+                }
+              ]
+            },
+            {
+              "text": "텍스트 입력 창 입력",
+              "intent": "오브젝트에 텍스트를 입력한다",
+              "entities": [
+                {
+                  "start": 0,
+                  "end": 3,
+                  "value": "텍스트",
+                  "entity": "텍스트"
+                },
+                {
+                  "start": 4,
+                  "end": 8,
+                  "value": "입력 창",
+                  "entity": "[이벤트] 입력 대상"
+                }
+              ]
+            }
+          ]
+        }
       }
     ]
   }
