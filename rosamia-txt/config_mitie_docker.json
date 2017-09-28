@@ -1,6 +1,5 @@
 {
-  "num_threads": 16,
-  "log_level": "DEBUG",
+  "num_threads": 2000,
   "pipeline": "mitie",
   "mitie_file": "./rosamia-txt/MITIE-english/total_word_feature_extractor.dat",
   "path" : "./rosamia-txt/models",
