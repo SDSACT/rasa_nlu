@@ -36,3 +36,4 @@ rasa_nlu/tmbo_test.py
 .mypy_cache/
 log.file
 rosamia-txt/MITIE-english/total*
+total_word_feature_extractor.dat
