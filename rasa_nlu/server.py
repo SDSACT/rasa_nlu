@@ -12,6 +12,7 @@ from flask import current_app
 from flask import jsonify
 from flask import request
 from gevent.wsgi import WSGIServer
+from flask_cors import CORS
 
 from rasa_nlu.config import RasaNLUConfig
 from rasa_nlu.data_router import DataRouter, InvalidModelError
@@ -58,6 +59,7 @@ def requires_auth(f):
 
 def create_app(config, component_builder=None):
     rasa_nlu_app = Flask(__name__)
+    CORS(rasa_nlu_app)
 
     @rasa_nlu_app.route("/parse", methods=['GET', 'POST'])
     @requires_auth
