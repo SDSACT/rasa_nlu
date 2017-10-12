@@ -10,6 +10,7 @@ import logging
 import multiprocessing
 import os
 import tempfile
+from rasa_nlu.meCab import mecabParser
 
 from builtins import object
 from typing import Text
@@ -178,7 +179,9 @@ class DataRouter(object):
                 raise InvalidModelError("No model found with alias '{}'. Error: {}".format(alias, e))
 
         model = self.model_store[alias]
-        response = model.parse(data['text'], data.get('time', None))
+
+        #meCabParse 로 들어온 단어를 형태소 분석하여 불필요한 형태소를 제거함
+        response = model.parse(mecabParser(data['text']), data.get('time', None))
         if self.responses:
             log = {"user_input": response, "model": alias, "time": datetime.datetime.now().isoformat()}
             self.responses.info(json.dumps(log, sort_keys=True))
