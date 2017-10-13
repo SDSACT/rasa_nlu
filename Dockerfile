@@ -39,6 +39,12 @@ WORKDIR /app/mecab-0.996-ko-0.9.2
 RUN ./configure && make && make check && make install
 RUN pip install mecab-python3
 
+WORKDIR /app/mecab-ko-dic-2.0.1-20150920
+RUN ./tools/add-userdic.sh
+RUN cp -rf /app/mecab-ko-dic-2.0.1-20150920/user-gaplant.custom /app/mecab-ko-dic-2.0.1-20150920/user-gaplant.csv
+
+
+
 RUN ls /app
 
 EXPOSE 5000
