@@ -1,0 +1,1 @@
+docker run -i -p 5000:5000 -v /Users/devcraft3/dev/ws/rosamia/rasa_nlu/rosamia-txt:/app/rosamia-txt rasa_nlu start -c ./rosamia-txt/config_mitie_docker.json   --server_model_dirs=/app/rosamia-txt/models/model_20170929-043427
