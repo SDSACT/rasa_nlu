@@ -37,3 +37,10 @@ rasa_nlu/tmbo_test.py
 log.file
 rosamia-txt/MITIE-english/total*
 total_word_feature_extractor.dat
+
+mecab-ko-dic-2.0.1-20150920/*.def
+mecab-ko-dic-2.0.1-20150920/*.bin
+mecab-ko-dic-2.0.1-20150920/*.dic
+mecab-ko-dic-2.0.1-20150920/*.csv
+!user*.csv
+
