@@ -43,6 +43,9 @@ WORKDIR /app/mecab-ko-dic-2.0.1-20150920
 RUN ./tools/add-userdic.sh
 RUN cp -rf /app/mecab-ko-dic-2.0.1-20150920/user-gaplant.custom /app/mecab-ko-dic-2.0.1-20150920/user-gaplant.csv
 
+WORKDIR /app/mecab-ko-dic-2.0.1-20150920
+RUN make install 
+
 
 
 RUN ls /app
